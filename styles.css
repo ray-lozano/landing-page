@@ -1,11 +1,18 @@
-body {    
-    font-family: 'Roboto', sans-serif; 
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 400px;
+    height: auto;
 }
 
 /* ---------- HEADER ---------- */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 16px;
     background-color: #1F2937;
 }
@@ -28,4 +35,39 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+}
+
+/* ---------- HEADER CONTENT ---------- */
+.card {
+    width: 400px;
+    padding: 48px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+
+.card-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    weight: 900;
+}
+
+.card-body {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #3882F6;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100px;
 }
