@@ -12,7 +12,7 @@ img {
 /* ---------- HEADER ---------- */
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 16px;
     background-color: #1F2937;
 }
@@ -45,7 +45,7 @@ ul {
 
 .header-content {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #1F2937;
 }
 
