@@ -9,8 +9,11 @@ body {
 }
 
 img {
-    width: 400px;
-    height: auto;
+    background: gray;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    line-height: 225px;
 }
 
 /* ---------- HEADER ---------- */
@@ -77,3 +80,54 @@ ul {
     border-radius: 12px;
     width: 100px;
 }
+
+/* ---------- SOME RANDOM INFORMATION ---------- */
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-text {
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.illus-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.illus-text {
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+/*.illustrations {
+    display: flex;
+}*/
+
+/*.illus-text {
+    display: flex;
+    width: 33%;
+}*/
+/* ---------- QUOTE CONTENT ---------- */
